@@ -38,6 +38,12 @@ header nav ul li a
     color: black;
     font-size: 20px;
     font-weight: 900;
+    transition: 1s;
+}
+
+header nav ul li a:hover
+{
+    color: crimson;
 }
 /*---Main---*/
 .hero
@@ -86,7 +92,14 @@ footer
     background-color: wheat;
     display: flex;
     justify-content: center;
+    transition: 1s;
 }
+
+footer div:hover
+{
+    transform: scale(1.1);
+}
+
 footer img
 {
     width: 50px;
@@ -110,10 +123,10 @@ footer img
 {
     /*border: 2px solid cadetblue ;*/
     width: 100%;
-    height: 500px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    transition: 1s;
 }
 
 .tortas .tortas__cards .card1
@@ -126,6 +139,11 @@ footer img
     border-radius: 10px;
     background-color: lightpink;
     margin: 5px;
+}
+
+.tortas div div:hover
+{
+    transform: scale(1.1);
 }
 .tortas .card1 .card1__img
 {
