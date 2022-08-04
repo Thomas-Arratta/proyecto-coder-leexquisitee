@@ -6,9 +6,9 @@
 }
 
 /*---Header---*/
-header
+header nav
 {
-    background-color:wheat;
+    background-color: wheat;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,9 +16,8 @@ header
 
 header .logo
 {
-    width: 40%;
-    height: 40%;
-    padding: 10px;
+    width: 50%;
+    height: 50%;
 }
 
 header nav ul
@@ -119,79 +118,26 @@ footer img
     text-decoration:underline;
 }
 
-.tortas .tortas__cards
+.tortas .tarjeta
 {
     /*border: 2px solid cadetblue ;*/
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    transition: 1s;
+    transition: 1s; 
 }
 
-.tortas .tortas__cards .card1
-{
-    width: 300px;
-    height: 380px;
-    /*border: 1px solid black;*/
-    margin-bottom: 15px;
-    text-align: center;
-    border-radius: 10px;
-    background-color: lightpink;
-    margin: 5px;
-}
-
-.tortas div div:hover
+.tortas .tarjeta .card:hover
 {
     transform: scale(1.1);
 }
-.tortas .card1 .card1__img
+
+.tortas .tarjeta .card
 {
-    width: 300px;
-    height: 300px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    margin: 10px;
 }
 
-.tortas .tortas__cards .card2
-{
-    width: 300px;
-    height: 380px;
-    /*border: 1px solid black;*/
-    margin-bottom: 10px;
-    text-align: center;
-    border-radius: 10px;
-    background-color:lightpink;
-    margin: 5px;
-}
-
-.tortas .card2 .card2__img
-{
-    width: 300px;
-    height: 300px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-.tortas .tortas__cards .card3
-{
-    width: 300px;
-    height: 380px;
-    /*border: 1px solid black;*/
-    margin-bottom: 10px;
-    text-align: center;
-    border-radius: 10px;
-    background-color: lightpink;
-    margin: 5px; 
-}
-
-.tortas .card3 .card3__img
-{
-    width: 300px;
-    height: 300px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-}
 /*-------------------Tortas---------------------*/
 
 /*----------------Contactos----------------*/
@@ -302,16 +248,16 @@ main .productos__title
 
 @media screen and (max-width:845px) 
 {
-    header nav ul
+    /* header nav ul
     {
         flex-direction: column;
         text-align: center;
-    }
+    } */
     header .logo
     {
     width: 60%;
     height: 60%;
-    }
+    } 
 }
 
 @media screen and (max-width:713px)
@@ -379,12 +325,12 @@ main .productos__title
     {
     width: 80%;
     height: 80%;
-    }
-    header
+    } 
+    /* header
     {
         flex-wrap: wrap;
         justify-content: space-around;
-    }
+    } */
 }
 
 @media screen and (max-width:325px) 
