@@ -1,0 +1,31 @@
+@import"../base/variables";
+header
+{
+    .logo{
+        width: 50%;
+        height: 50%;
+    }
+    nav{
+        background-color: $color-wheat;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                margin: 15px;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 20px;
+                    font-weight: 900;
+                    transition: 1s;
+                    &:hover{
+                        color: crimson;
+                    }
+                }
+            }
+        }
+    }
+}

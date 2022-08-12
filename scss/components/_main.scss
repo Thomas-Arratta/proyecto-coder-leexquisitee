@@ -1,0 +1,114 @@
+@import"../base/variables";
+main{
+    .hero{
+        width: 100%;
+        height: 70vh;
+        background-image: url("../img/frente-panaderia.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        h1{
+            text-align: center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 40px;
+        }
+    }
+    .historia{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        background-color: $color-cadetblue;
+        div{
+            width: 40%;
+            text-align: center;
+            h2{
+                padding: 20px;
+                text-decoration: underline;
+                font-size: 25px;
+            }
+        }
+    }
+    .tortas{
+        background-color: $color-cadetblue;
+        .tortas__title{
+            text-align: center;
+            font-size: 40px;
+            text-decoration:underline;
+        }
+        .tarjeta{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            transition: 1s;
+            .card{
+                margin: 10px;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    .formulario{
+        .form{
+            text-align: center;
+            padding: 32px;
+            background-color:rgb(151, 177, 185);
+            .form__name{
+                margin: 10px;
+            }   
+            .form__email{
+                margin: 10px;
+            }
+            .form__phone{
+                margin: 10px;
+            }
+            .form__textarea{
+                margin: 10px;
+            }
+        }
+    }
+    .iframe{
+        background-color:rgb(151, 177, 185);
+        padding: 12px;
+    }
+    .productos__title{
+        text-align: center;
+    }
+    .galeria{
+        width: 100%;
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-auto-rows: 250px;
+        gap: 18px;
+        margin-bottom: 15px;
+        padding-left: 12px;
+        padding-right: 12px;
+        .img-2{
+            grid-row: span 2;
+        }
+        .img-9{
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .img-13{
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .img-16{
+            grid-column: span 2;
+        }
+        div{
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                box-shadow: 10px 10px 23px -7px rgba(64,74,47,0.64);
+                -webkit-box-shadow: 10px 10px 23px -7px rgba(64,74,47,0.64);
+                -moz-box-shadow: 10px 10px 23px -7px rgba(64,74,47,0.64);
+            }
+        }
+    }
+}
