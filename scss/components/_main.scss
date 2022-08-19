@@ -1,4 +1,6 @@
 @import"../base/variables";
+@import"../base/mixin";
+@import"../base/extends";
 main{
     .hero{
         width: 100%;
@@ -14,9 +16,7 @@ main{
         }
     }
     .historia{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        @include flex (flex, space-around, center);
         padding: 10px;
         background-color: $color-cadetblue;
         div{
@@ -38,10 +38,9 @@ main{
         }
         .tarjeta{
             width: 100%;
-            display: flex;
-            justify-content: center;
             flex-wrap: wrap;
             transition: 1s;
+            @extend %flex;
             .card{
                 margin: 10px;
                 &:hover{
