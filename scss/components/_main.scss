@@ -75,6 +75,22 @@ main{
     .productos__title{
         text-align: center;
     }
+    .productos__tortas{
+        h2{
+            text-align: center;
+        }
+        div{
+            padding: 30px;
+        }
+    }
+    .productos__sandwichdemiga{
+        h2{
+            text-align: center;
+        }
+        div{
+            padding: 30px;
+        }
+    }
     .galeria{
         width: 100%;
         margin-top: 25px;
@@ -110,8 +126,36 @@ main{
             }
         }
     }
+    h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .sandwich-base-jamon{
+        .sandwich-base-jamon__title{
+            text-align: center;
+            font-size: 32px;
+        }
+        p{
+            text-decoration: underline;
+            font-size: 23px;
+        }
+    }
+    .sandwich-base-queso{
+        .sandwich-base-queso__title{
+            text-align: center;
+            font-size: 32px;
+        }
+        p{
+            text-decoration: underline;
+            font-size: 23px;
+        }
+    }
 }
 
 .productos{
+    background-color:rgb(151, 177, 185);
+}
+
+.sandwich{
     background-color:rgb(151, 177, 185);
 }

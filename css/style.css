@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box; }
 
+.productos__tortas__img {
+  height: 35%;
+  width: 35%; }
+
+.productos__sandwichdemiga__img {
+  height: 35%;
+  width: 35%; }
+
 header .logo {
   width: 50%;
   height: 50%; }
@@ -92,6 +100,18 @@ main .iframe {
 main .productos__title {
   text-align: center; }
 
+main .productos__tortas h2 {
+  text-align: center; }
+
+main .productos__tortas div {
+  padding: 30px; }
+
+main .productos__sandwichdemiga h2 {
+  text-align: center; }
+
+main .productos__sandwichdemiga div {
+  padding: 30px; }
+
 main .galeria {
   width: 100%;
   margin-top: 25px;
@@ -120,7 +140,30 @@ main .galeria {
     -webkit-box-shadow: 10px 10px 23px -7px rgba(64, 74, 47, 0.64);
     -moz-box-shadow: 10px 10px 23px -7px rgba(64, 74, 47, 0.64); }
 
+main h1 {
+  text-align: center;
+  text-decoration: underline; }
+
+main .sandwich-base-jamon .sandwich-base-jamon__title {
+  text-align: center;
+  font-size: 32px; }
+
+main .sandwich-base-jamon p {
+  text-decoration: underline;
+  font-size: 23px; }
+
+main .sandwich-base-queso .sandwich-base-queso__title {
+  text-align: center;
+  font-size: 32px; }
+
+main .sandwich-base-queso p {
+  text-decoration: underline;
+  font-size: 23px; }
+
 .productos {
+  background-color: #97b1b9; }
+
+.sandwich {
   background-color: #97b1b9; }
 
 footer {
