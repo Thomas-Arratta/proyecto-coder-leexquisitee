@@ -5,11 +5,13 @@
 
 .productos__tortas__img {
   height: 35%;
-  width: 35%; }
+  width: 35%;
+  margin-left: 400px; }
 
 .productos__sandwichdemiga__img {
   height: 35%;
-  width: 35%; }
+  width: 35%;
+  margin-left: 400px; }
 
 header .logo {
   width: 50%;
@@ -57,6 +59,9 @@ main .historia {
   align-items: center;
   padding: 10px;
   background-color: cadetblue; }
+  main .historia img {
+    height: 300px;
+    width: 300px; }
   main .historia div {
     width: 40%;
     text-align: center; }
@@ -150,7 +155,8 @@ main .sandwich-base-jamon .sandwich-base-jamon__title {
 
 main .sandwich-base-jamon p {
   text-decoration: underline;
-  font-size: 23px; }
+  font-size: 23px;
+  margin: 8px; }
 
 main .sandwich-base-queso .sandwich-base-queso__title {
   text-align: center;
@@ -158,7 +164,8 @@ main .sandwich-base-queso .sandwich-base-queso__title {
 
 main .sandwich-base-queso p {
   text-decoration: underline;
-  font-size: 23px; }
+  font-size: 23px;
+  margin: 8px; }
 
 .productos {
   background-color: #97b1b9; }
@@ -185,7 +192,11 @@ footer {
   .img-19 {
     grid-row: span 2; }
   .img-20 {
-    grid-column: span 2; } }
+    grid-column: span 2; }
+  .productos__sandwichdemiga__img {
+    margin-left: 300px; }
+  .productos__tortas__img {
+    margin-left: 300px; } }
 
 @media screen and (max-width: 845px) {
   /* header nav ul
@@ -195,7 +206,11 @@ footer {
     } */
   header .logo {
     width: 60%;
-    height: 60%; } }
+    height: 60%; }
+  .productos__sandwichdemiga__img {
+    margin-left: 250px; }
+  .productos__tortas__img {
+    margin-left: 250px; } }
 
 @media screen and (max-width: 713px) {
   .galeria {
@@ -203,33 +218,48 @@ footer {
     grid-auto-rows: 150px; }
   .grid-items {
     grid-column: span 1;
-    grid-row: span 1; } }
+    grid-row: span 1; }
+  .productos__sandwichdemiga__img {
+    margin-left: 200px; }
+  .productos__tortas__img {
+    margin-left: 200px; } }
 
 @media screen and (max-width: 627px) {
   .iframe__map {
     width: 500px;
-    height: 500px; }
+    height: 500px;
+    margin-left: 55px; }
   .historia div {
     width: 60%; }
   .historia {
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .productos__sandwichdemiga__img {
+    margin-left: 150px; }
+  .productos__tortas__img {
+    margin-left: 150px; } }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 583px) {
   .iframe__map {
     width: 400px;
     height: 400px; } }
+
+@media screen and (max-width: 490px) {
+  .iframe__map {
+    width: 300px;
+    height: 300px; } }
 
 @media screen and (max-width: 465px) {
   .galeria {
     grid-template-columns: 1fr; }
   .grid-items {
     grid-column: span 1;
-    grid-row: span 1; } }
+    grid-row: span 1; }
+  .productos__sandwichdemiga__img {
+    margin-left: 100px; }
+  .productos__tortas__img {
+    margin-left: 100px; } }
 
 @media screen and (max-width: 419px) {
-  .iframe__map {
-    width: 300px;
-    height: 300px; }
   header .logo {
     width: 80%;
     height: 80%; }
@@ -238,6 +268,11 @@ footer {
         flex-wrap: wrap;
         justify-content: space-around;
     } */ }
+
+@media screen and (max-width: 390px) {
+  .iframe__map {
+    width: 200px;
+    height: 200px; } }
 
 @media screen and (max-width: 325px) {
   .iframe__map {

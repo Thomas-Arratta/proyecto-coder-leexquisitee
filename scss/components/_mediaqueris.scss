@@ -13,6 +13,14 @@
     {
         grid-column: span 2;
     }
+
+    .productos__sandwichdemiga__img{
+        margin-left: 300px;
+    }
+
+    .productos__tortas__img{
+        margin-left: 300px;
+    }
 } 
 
 @media screen and (max-width:845px) 
@@ -26,6 +34,14 @@
     {
     width: 60%;
     height: 60%;
+    }
+
+    .productos__sandwichdemiga__img{
+        margin-left: 250px;
+    }
+
+    .productos__tortas__img{
+        margin-left: 250px;
     } 
 }
 
@@ -42,6 +58,14 @@
         grid-row: span 1;
     }
 
+    .productos__sandwichdemiga__img{
+        margin-left: 200px;
+    }
+
+    .productos__tortas__img{
+        margin-left: 200px;
+    }
+
 }
 
 @media screen and (max-width:627px)
@@ -50,6 +74,7 @@
     {
         width: 500px;
         height: 500px;
+        margin-left: 55px;
     }
     .historia div
     {
@@ -59,14 +84,31 @@
     {
         flex-wrap: wrap;
     }
+
+    .productos__sandwichdemiga__img{
+        margin-left: 150px;
+    }
+
+    .productos__tortas__img{
+        margin-left: 150px;
+    }
 }
 
-@media screen and (max-width:525px)
+@media screen and (max-width:583px)
 {
     .iframe__map
     {
         width: 400px;
         height: 400px;
+    }
+}
+
+@media screen and (max-width:490px)
+{
+    .iframe__map
+    {
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -81,15 +123,18 @@
         grid-column: span 1;
         grid-row: span 1;
     }
+
+    .productos__sandwichdemiga__img{
+        margin-left: 100px;
+    }
+
+    .productos__tortas__img{
+        margin-left: 100px;
+    }
 }
 
 @media screen and (max-width:419px)
 {
-    .iframe__map
-    {
-        width: 300px;
-        height: 300px;
-    }
     header .logo
     {
     width: 80%;
@@ -100,6 +145,15 @@
         flex-wrap: wrap;
         justify-content: space-around;
     } */
+}
+
+@media screen and (max-width:390px)
+{
+    .iframe__map
+    {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 @media screen and (max-width:325px) 

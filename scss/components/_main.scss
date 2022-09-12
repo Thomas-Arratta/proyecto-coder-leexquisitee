@@ -19,6 +19,10 @@ main{
         @include flex (flex, space-around, center);
         padding: 10px;
         background-color: $color-cadetblue;
+        img{
+            height: 300px;
+            width: 300px;
+        }
         div{
             width: 40%;
             text-align: center;
@@ -138,6 +142,7 @@ main{
         p{
             text-decoration: underline;
             font-size: 23px;
+            margin: 8px;
         }
     }
     .sandwich-base-queso{
@@ -148,6 +153,7 @@ main{
         p{
             text-decoration: underline;
             font-size: 23px;
+            margin: 8px;
         }
     }
 }
